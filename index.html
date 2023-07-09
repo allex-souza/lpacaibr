@@ -22,25 +22,29 @@
             </div>
             <div class="cxForm">
                 <p>Preencha o formulário e receba a apresentação completa com todos os detalhes da nossa franquia:</p>
-                <form action="#" method="POST">
+                <form action="https://api.staticforms.xyz/submit" method="POST">
                     <label class="placeHl" for="nome">Nome:</label>
-                    <input class="cxInput" type="text" id="nome" name="nome" required>
+                    <input class="cxInput" type="text" id="nome" name="name" required>
                 
                     <label class="placeHl" for="email">E-mail:</label>
                     <input class="cxInput" type="email" id="email" name="email" required>
                 
                     <label class="placeHl" for="telefone">Telefone:</label>
-                    <input class="cxInput" type="tel" id="telefone" name="telefone" required>
+                    <input class="cxInput" type="tel" id="telefone" name="phone" required>
                 
                     <label class="placeHl" for="opcao">Escolha o seu Potencial de Investiemnto:</label>
-                    <select class="cxInput" id="opcao" name="opcao" required>
+                    <select class="cxInput" id="opcao" name="$potencial_de_investimento" required>
                         <option value="">R$140 mil a R$200 mil</option>
-                        <option value="opcao1">R$140 mil a R$200 mil</option>
-                        <option value="opcao2">R$140 mil a R$200 mil</option>
-                        <option value="opcao3">R$140 mil a R$200 mil</option>
+                        <option value="R$140 mil a R$200 mil">R$140 mil a R$200 mil</option>
+                        <option value="R$200 mil a R$250 mil">R$200 mil a R$250 mil</option>
+                        <option value="R$250 mil a R$300 mil">R$250 mil a R$300 mil</option>
                       </select>
                 
                     <input class="butForm" type="submit" value="QUERO MAIS INFORMAÇÕES">
+
+                    <input type="hidden" name="accessKey" value="2f01487c-c893-4d0e-87ab-31dcb6456c2f"> 
+                    
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
                   </form>
             </div>
         </div>
@@ -63,40 +67,43 @@
             </div>
         </section>
         <section>
-            <div class="alingCx">
-                <h2>O modelo de franquia:</h2>
-                
-                <div>
-                    <img src="" alt="">
-                    <p>Investimento inicial a partir de R$ 149 mil*</p>
-                </div>
+            <h2>O modelo de franquia:</h2>
+            <div class="alingCx modeloFrank">
+                <div class="cxAlingSectionIcons">
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Investimento inicial a partir de R$ 149 mil*</p>
+                    </div>
 
-                <div>
-                    <img src="" alt="">
-                    <p>Faturamento anual médio de R$ 700 mil</p>
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Faturamento anual médio de R$ 700 mil</p>
+                    </div>
                 </div>
+                <div class="cxAlingSectionIcons">
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Lucratividade e retorno Rápido</p>
+                    </div>
 
-                <div>
-                    <img src="" alt="">
-                    <p>Lucratividade e retorno Rápido</p>
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Prazo de retorno médio de 12 a 24 meses</p>
+                    </div>
                 </div>
+                <div class="cxAlingSectionIcons">
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Taxa de Franquia R$ 60 mil</p>
+                    </div>
 
-                <div>
-                    <img src="" alt="">
-                    <p>Prazo de retorno médio de 12 a 24 meses</p>
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Royalties R$ 700 Taxa de marketing R$ 450</p>
+                    </div>
                 </div>
-
-                <div>
-                    <img src="" alt="">
-                    <p>Taxa de Franquia R$ 60 mil</p>
-                </div>
-
-                <div>
-                    <img src="" alt="">
-                    <p>Royalties R$ 700 Taxa de marketing R$ 450</p>
-                </div>
-            </div>
-            <button>Receba a apresentação</button>
+            </div>    
+            <button class="butForm butSection">Receba a apresentação</button>            
         </section>
         <section class="cxSecMaps">
             <div class="alingCx">
@@ -106,81 +113,109 @@
                 <img src="/shapeMapa.svg" alt="">
             </div>
         </section>
+
+
         <section>
-            <div class="alingCx">
-                <h2>Seja um franqueado de sucesso</h2>
-                
-                <div>
-                    <img src="" alt="">
-                    <p>Alta lucratividade, processo de expansão em desenvolvimento.</p>
-                </div>
+            <h2>Seja um franqueado de sucesso</h2>
+            <div class="alingCx modeloFrank">
+                <div class="cxAlingSectionIcons">
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Alta lucratividade, processo de expansão em desenvolvimento.</p>
+                    </div>
 
-                <div>
-                    <img src="" alt="">
-                    <p>Assessoria completa nos processos da operação.</p>
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Assessoria completa nos processos da operação.</p>
+                    </div>
                 </div>
+                <div class="cxAlingSectionIcons">
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Fornecedores aprovados e com as melhores condições do mercado.</p>
+                    </div>
 
-                <div>
-                    <img src="" alt="">
-                    <p>Fornecedores aprovados e com as melhores condições do mercado.</p>
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Oferecemos treinamentos personalizados para toda sua equipe</p>
+                    </div>
                 </div>
+                <div class="cxAlingSectionIcons">
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Produtos que conquistam os consumidores.<br><br></p>
+                    </div>
 
-                <div>
-                    <img src="" alt="">
-                    <p>Oferecemos treinamentos personalizados para toda sua equipe.</p>
-                </div>
-
-                <div>
-                    <img src="" alt="">
-                    <p>Produtos que conquistam os consumidores.</p>
-                </div>
-
-                <div>
-                    <img src="" alt="">
-                    <p>Estratégias de marketing com foco em resultados.</p>
-                </div>
-            </div>
-            <button>Receba a apresentação</button>
-
-        </section>
-        <section class="alingCx">
-            <div>
-                <h2>Um pouco sobre a nossa história:</h2>
-                <div>
-                    <img src="" alt="">
-                    <p>Com mais de 10 anos de história, os primeiros açaís feitos pelo chefe francês, foram o resultado de requinte da culinária francesa, combinada a brasilidade do puro Açaí direto da Amazônia no Brasil, com receitas autorais do chef francês!
-
-                        Com uma receita exclusiva e o modelo diferenciado que garante rapidez e praticidade, a novidade logo virou sensação na região. ​
-                        Todo o sucesso deu origem a uma linha de sabores exclusivos.</p>
-                </div>
-            </div>
-        </section>
-        <section class="alingCx">
-            <div>
-                <h2>Processo de seleção:</h2>
-                <img src="" alt="">
-            </div>
-            <button>Receba a apresentação</button>
-        </section>
-        <section class="alingCx">
-            <div>
-                <div>
-                    <div>
-                        <img src="" alt="">
-                        <p></p>
-                        <h3></h3>
-                        <img src="" alt="">
+                    <div class="cxcards">
+                        <img src="iconG.svg" alt="">
+                        <p>Estratégias de marketing com foco em resultados.</p>
                     </div>
                 </div>
             </div>
+            <button class="butForm butSection">Receba a apresentação</button>
+
         </section>
-        <section class="alingCx">
-            <div>Em busca de uma opção de investimento rentável?</div>
-            <button>Receba a apresentação</button>
+        <section class="secHistory">
+            <h2 class="h2SecHist">Um pouco sobre <br> a nossa história:</h2>
+            <div class="alingCx">
+                <div class="alinghist">
+                    <img src="imgFrances.svg" alt="">
+
+                    <p>Com mais de 10 anos de história, os primeiros açaís feitos pelo chefe francês, foram o resultado de requinte da culinária francesa, combinada a brasilidade do puro Açaí direto da Amazônia no Brasil, com receitas autorais do chef francês!
+
+                    Com uma receita exclusiva e o modelo diferenciado que garante rapidez e praticidade, a novidade logo virou sensação na região. ​
+                    
+                    Todo o sucesso deu origem a uma linha de sabores exclusivos.</p>
+                </div>
+            </div>
         </section>
+        <section>
+            <h2 class="h2ProcSell">Processo de seleção:</h2>
+            <div class="alingCx cxImgSecProc">
+                <img src="procSelect.svg" alt="">
+            </div>
+            <button class="butForm butSection">Receba a apresentação</button>
+        </section>
+
+        <section class="cxBackAvall">
+            <div class="alingCx cxAvall">
+                    <div class="crdAvall">
+                        <img src="imgPessoal.svg" alt="">
+                        <p>O melhor açaí que já tomamos em Lisboa! Fica no Parque das Nações, então você pode tomar o açaí e contemplar o Rio Tejo. </p>
+                        <h3>- Mauro Z. Neto</h3>
+                        <img src="avallstar.svg" alt="">
+                    </div>
+
+                    <div class="crdAvall">
+                        <img src="imgPessoal.svg" alt="">
+                        <p>O melhor açaí que já tomamos em Lisboa! Fica no Parque das Nações, então você pode tomar o açaí e contemplar o Rio Tejo. </p>
+                        <h3>- Mauro Z. Neto</h3>
+                        <img src="avallstar.svg" alt="">
+                    </div>
+
+                    <div class="crdAvall">
+                        <img src="imgPessoal.svg" alt="">
+                        <p>O melhor açaí que já tomamos em Lisboa! Fica no Parque das Nações, então você pode tomar o açaí e contemplar o Rio Tejo. </p>
+                        <h3>- Mauro Z. Neto</h3>
+                        <img src="avallstar.svg" alt="">
+                    </div>
+            </div>
+        </section>
+
+        <section class="cxbackembusca">
+            <div class="alingCx" >
+            <h2 class="h2UltmSec">
+                Em busca de uma opção de investimento rentável?
+            </h2>
+            </div>
+            <button class="butForm butSection">
+                Receba a apresentação
+            </button>
+        </section>
+        
     </main>
     <footer>
-        <h3></h3>
+        <h3>© 2023 - Política de privacidade</h3>
     </footer>
 </body>
 </html>
