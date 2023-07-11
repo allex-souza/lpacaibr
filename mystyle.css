@@ -12,7 +12,7 @@ header{
     display: block;
     background-image: url(shapesHeader.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 108%;
     background-position: top;
 }
 .tarjaTop{
@@ -41,28 +41,36 @@ header{
 .cxTitulo h1{
     font-size: 4rem;
     line-height: 4.6rem;
-    color: #842C34;
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgb(102, 25, 32) 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .cxTitulo h2{
     font-size: 1.3rem;
     font-weight: 500;
+    color: #292929;
 }
 
 /*FORMULÁRIO*/
 
 .cxForm{
     background-color: #842C34;
+    background: rgb(132,44,52);
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
     padding: 60px 38px 68px 38px;
     border-radius: 10px;
 }
+
 .cxForm p{
     color: #fff;
     text-align: center;
     font-weight: 100;
     margin-bottom: 30px;
     font-size: 1.2rem;
+    text-shadow: 0px 0px 8px #46060C;
 }
+
 .placeHl{
     position: relative;
     display: block;
@@ -81,7 +89,8 @@ header{
 }
 
 .butForm{
-    background-color: #21A532;
+    background: rgb(33,165,50);
+background: linear-gradient(180deg, rgba(33,165,50,1) 0%, rgba(27,156,44,1) 100%);
     padding: 15px 40px;
     width: 100%;
     border-radius: 50px;
@@ -100,6 +109,8 @@ select, option{
 
 .oneSectionNumbers{
     background-color: #842C34;
+    background: rgb(132,44,52);
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
     color: white;
 }
 .classoneSectionNumbers{
@@ -111,7 +122,9 @@ select, option{
 
 .classoneSectionNumbers h3{
     font-size: 3.1rem;
+    text-shadow: 0px 0px 4px #46060C;
 }
+
 .classoneSectionNumbers p{
     font-size: 1.3rem;
     text-align: center;
@@ -124,16 +137,23 @@ select, option{
 
 section h2{
     position: relative;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-align: center;
+    color: #292929;
     margin: 60px auto 0px auto;
+}
+b{
+    color:#2f2f2f ;
 }
 
 .cxAlingSectionIcons{
     display: block;
     width: 330px;
 }
-
+.cxAlingSectionIcons p{
+    color: #1d1d1d ;
+    font-size: 1.1rem;
+}
 .modeloFrank{
     position: relative;
     display: flex;
@@ -165,6 +185,8 @@ section h2{
 
 .secHistory{
     background-color: #842C34;
+    background: rgb(132,44,52);
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
     color: #fff;
 }
 
@@ -174,6 +196,331 @@ section h2{
 }
 
 .h2SecHist{
+    color: #fffafa;
+    padding-top:60px;
+    position: relative;
+    display: block;
+    line-height: 3.8rem;
+}
+
+.alinghist p{
+    text-align: left;
+    margin-left: 30px;
+    font-weight: 1;
+    letter-spacing: .00002rem;
+    font-size: 1.1rem;
+    line-height: 2.4rem;
+    color: #efe5e5 !important;
+    word-spacing: .09rem;
+}
+.alinghist p b{
+   color: #f8dfdf !important;
+}
+
+
+.h2ProcSell{
+    position: relative;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 60px auto 0px auto;
+    color: #292929;
+}
+
+.cxImgSecProc{
+    margin: 40px auto;
+}
+
+.cxBackAvall{
+    background-color: #842C34;
+}
+
+.crdAvall{
+    background-color: #fff;
+    width: 250px;
+    padding: 60px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(46, 46, 46, 0.371);
+}
+.cxbackembusca{
+    background-image: url(shapesHeader.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 40px 0;
+}
+.cxbackembusca h2, .cxbackembusca button{
+    margin: 0 auto !important;
+    padding: 15px 40px;
+}
+
+.cxAvall{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    background: rgb(132,44,52);
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
+}
+
+.crdAvall p{
+    font-size: 1rem;
+    color: #292929;
+}
+.crdAvall h3{
+    font-size: 1.2rem;
+    margin: 10px 0 0 0;
+    color: #842C34;
+}
+
+.h2UltmSec{
+    color: #842C34;
+    line-height: 3.8rem;
+    margin: 60px 0 40px 0;
+}
+
+footer{
+    background-color: #c08c91;
+    padding: 20px 0;
+}
+footer h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.starAvall{
+    width: 40%;
+}
+
+
+
+.cxSecMaps h2{
+    text-align: center;
+    font-size: 3.1rem;
+    color: #fff;
+    margin-bottom: 40px;
+    
+}
+
+.cxSecMaps{
+    background-color: #842C34;
+    padding: 60px 0;
+    background: rgb(132,44,52);
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
+}
+
+
+
+.imgGrande{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    header{
+    position: relative;
+    display: block;
+    background-image: url(shapesHeader.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+.tarjaTop{
+    background-color: #842C34;
+    width: 100%;
+    height: 20px;
+}
+.baseCxHeader{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+/*TEXTO CAPA TOPO*/
+
+.cxTitulo{
+    position: relative;
+    display: block;
+    padding-right: 10px;
+}
+.cxTitulo h1{
+    font-size: 4rem;
+    line-height: 4.6rem;
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgb(115, 31, 38) 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cxTitulo h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #292929;
+}
+
+/*FORMULÁRIO*/
+
+.cxForm{
+    background-color: #842C34;
+    background: rgb(132,44,52);
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
+    padding: 60px 38px 68px 38px;
+    border-radius: 10px;
+}
+
+.cxForm p{
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.placeHl{
+    position: relative;
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cxInput{
+    border: none !important;
+    width: 100%;
+    height:43px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding-left: 8px;
+}
+
+.butForm{
+    background: rgb(33,165,50);
+background: linear-gradient(180deg, rgba(33,165,50,1) 0%, rgba(27,156,44,1) 100%);
+    padding: 15px 40px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    margin: 20px 0 0 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+select, option{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.oneSectionNumbers{
+    background-color: #842C34;
+    background: rgb(132,44,52);
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
+    color: white;
+}
+.classoneSectionNumbers{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 60px 0;
+    justify-content: space-between;
+}
+
+.classoneSectionNumbers h3{
+    font-size: 3.1rem;
+}
+
+.classoneSectionNumbers p{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+/*SEÇÃO O MODELO DE FRANQUIA:*/
+
+
+section h2{
+    position: relative;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #292929;
+    margin: 60px auto 0px auto;
+}
+
+.cxAlingSectionIcons{
+    display: block;
+    width: 330px;
+}
+
+.modeloFrank{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cxcards{
+    width: 100%;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.alingCx{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    font-size: 1.44rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.butSection{
+    width: 380px;
+    display: block;
+    margin: 0 auto 60px auto;
+    position: relative;
+}
+
+.secHistory{
+    background-color: #842C34;
+    background: rgb(132,44,52);
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
+    color: #fff;
+}
+
+.alinghist{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 60px 0;
+}
+
+.h2SecHist{
+    color: #fffafa;
     padding-top:60px;
     position: relative;
     display: block;
@@ -191,9 +538,10 @@ section h2{
 
 .h2ProcSell{
     position: relative;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-align: center;
     margin: 60px auto 0px auto;
+    color: #292929;
 }
 
 .cxImgSecProc{
@@ -222,8 +570,11 @@ section h2{
 .cxAvall{
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 60px 0;
+    background: rgb(132,44,52);
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
 }
 
 .crdAvall p{
@@ -252,20 +603,25 @@ footer h3{
     color: #fff;
 }
 
-
+.starAvall{
+    width: 40%;
+}
 
 
 
 .cxSecMaps h2{
-
     text-align: center;
     font-size: 3.1rem;
     color: #fff;
     margin-bottom: 40px;
+    
 }
 
 .cxSecMaps{
     background-color: #842C34;
     padding: 60px 0;
+    background: rgb(132,44,52);
+    background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
 }
 
+}
