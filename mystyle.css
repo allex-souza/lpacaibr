@@ -309,6 +309,10 @@ footer h3{
     background: rgb(132,44,52);
     background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
 }
+.cxSecMaps img{
+    display: block;
+    position: relative;
+}
 
 
 
@@ -667,6 +671,11 @@ footer h3{
     padding: 40px 0;
     background: rgb(132,44,52);
     background: linear-gradient(180deg, rgba(132,44,52,1) 0%, rgba(128,36,44,1) 100%);
+}
+.cxSecMaps img{
+    display: block;
+    position: relative;
+    right: -10px;
 }
 
 }
