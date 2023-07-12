@@ -22,9 +22,9 @@
                     Invista na melhor franquia de açaí premium do Brasil e fature até <b>380.000 € por ano.
                 </h2>
             </div>
-            <div class="cxForm">
+            <div id="form" class="cxForm">
                 <p>Preencha o formulário e receba a apresentação completa com todos os detalhes da nossa franquia:</p>
-                <form id="form" action="https://api.staticforms.xyz/submit" method="POST">
+                <form action="https://api.staticforms.xyz/submit" method="POST">
                     <label class="placeHl" for="nome">Nome:</label>
                     <input class="cxInput" type="text" id="nome" name="name" required>
                 
@@ -105,7 +105,7 @@
                     </div>
                 </div>
             </div>    
-            <button href="#form" class="butForm butSection">Receba a apresentação</button>            
+            <button onclick="scrollForm()" class="butForm butSection">Receba a apresentação</button>            
         </section>
         <section class="cxSecMaps">
             <div class="alingCx">
@@ -160,7 +160,7 @@
                     </div>
                 </div>
             </div>
-            <button class="butForm butSection">Receba a apresentação</button>
+            <button onclick="scrollForm()" class="butForm butSection">Receba a apresentação</button>
 
         </section>
         <section class="secHistory">
@@ -187,7 +187,7 @@
                     <img class="imgGrande" src="procSelect.svg" alt="">
                 </picture>
             </div>
-            <button class="butForm butSection">Receba a apresentação</button>
+            <button onclick="scrollForm()" class="butForm butSection">Receba a apresentação</button>
         </section>
 
         <section class="cxBackAvall">
@@ -221,7 +221,7 @@
                 Em busca de uma opção de investimento rentável?
             </h2>
             </div>
-            <button class="butForm butSection">
+            <button onclick="scrollForm()" class="butForm butSection">
                 Receba a apresentação
             </button>
         </section>
